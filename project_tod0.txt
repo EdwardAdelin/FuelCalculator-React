@@ -1,0 +1,5 @@
+1. layout html
+2. integrare calculator traseu cu Maps
+3. realizare functie log-in
+4. stilizare CSS
+5. realizare notebook pentru notitele utilizatorului

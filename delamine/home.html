@@ -1,0 +1,85 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAB434L3LTTYOyZaOkvYTt4QTYmPj50DE8&libraries=places"></script>
+
+    <!--<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>RoConsum</title> 
+</head> -->
+<body>
+    <!-- Aceasta aplicatie este o aplicatie cu scop educativ si practic -->
+    
+    <!-- start of WINDOW -->
+    <!-- <div class="window">
+
+         <h2 class="calculatorclasic">Calculator Clasic</h2>  -->
+    <!-- FORM USED TO INSERT DATA -->      <!--
+        <div class="form_calculator">
+            <form id="form" name="calculator" action="" method="GET">
+                <label for="distance">Distanta:</label><br>
+                <input type="number" id="distance" name="distance" class="input"><br>
+                <hr>
+                <label for="avrage">Consum mediu:</label><br>
+                <input type="number" id="avrage" name="avrage" class="input">
+                <hr>
+                <label for="price">Pret combustibil:</label><br>
+                <input type="number" id="price" name="price" class="input">
+                <hr>
+                <button type="button" class="button" id="button" onclick="submitForm()">
+                    Calculeaza
+                </button>
+                <hr>
+                <p>Introduceți distanța traseului dumneavoastră în prima căsuță.</p>
+                <p>Introduceți consumul mediu al autoturismului dumneavoastră în a doua căsuță.</p>
+                <p>Introduceți pretul per litru al combustibilului utilizat în a treia căsuță.</p>
+            </form>
+        </div>
+-->
+    <!-- FINAL RESULTS -->
+    <!-- 
+    <hr>
+    <div class="result_calculator">
+
+        <h3>Veți plăti pentru drum: </h3>
+        <div class="print">
+        <p id="print_price"></p>
+        </div>
+        
+        <h3>Mașina va consuma: </h3>
+        <div class="print">
+        <p id="print_usedfuel"></p>
+        </div>
+
+    </div>
+
+    </div>
+    -->
+    <!-- end of WINDOWS -->
+
+    <!-- SCRIPT USED TO SHOW DATA & USED TO ACCES DATA -->
+    <script src="calculator.js"></script>
+    <!-- end of script to show data -->
+
+
+    <!-- API GOOGLE-->
+    <form>
+        <label for="city1">City 1:</label>
+        <input type="text" id="city1" name="city1"><br><br>
+
+        <label for="city2">City 2:</label>
+        <input type="text" id="city2" name="city2"><br><br>
+
+        <button type="button" onclick="calculateDistance()">Calculate Distance</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="distance.js"></script>
+
+
+</body>
+</html>
+<!-- making a basic web app #3-->

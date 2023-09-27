@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 4px 4px #536070;
+}
+body{
+    background-color: #dddfe2
+}
+.window{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    border: 10px solid #75808d;
+    background-color: 	#536070; 
+    color: white;
+    text-shadow: 2px 4px 4px #536070;
+}
+.form_calculator{
+    margin: auto;
+    text-align: center;
+    min-width: 50px;
+
+}
+.form_calculator label{
+    color: white ;
+    font-size: 18px;
+    
+}
+.button {
+    background-color: #75808d; 
+    border: 2px solid #dddfe2;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 8px;
+  }
+header{
+    width: 75%;
+    margin: auto;
+    background: linear-gradient(to right, #0033A0 33.33%, #FFCC29 33.33%, #FFCC29 66.66%, #D7141A 66.66%);
+}
+.print{
+    margin-bottom: 15px;
+    padding: 3px;
+    color:blue;
+    background: linear-gradient(to right, #0033A0 33.33%, #FFCC29 33.33%, #FFCC29 66.66%, #D7141A 66.66%);
+}
+.input{
+    padding: 2px;
+    margin: 12px;
+}
+p{
+    padding: 8px;
+}
+.calculatorclasic{
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+hr{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+h3{
+    padding: 8px;
+}
